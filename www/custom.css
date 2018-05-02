@@ -1,0 +1,12 @@
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.checkbox { /* checkbox is a div class*/
+	height: 5px;
+        line-height: 5px;
+        margin-bottom: 5px; /*set the margin, so boxes don't overlap*/
+	margin-top: 5px;
+      }
+}
