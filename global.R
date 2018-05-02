@@ -6,7 +6,7 @@ library(bit64)
 library(shiny)
 
 
-fortune <- fread(file = "C:/Users/Igor Gitlevich/Documents/Academy/Shiny/stockPredictor/Fortune500.csv")
+fortune <- fread(file = "./Fortune500.csv")
 
 # remove row names
 rownames(fortune) <- NULL
